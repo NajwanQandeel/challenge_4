@@ -11,12 +11,12 @@ app.get("/", function(request, response) {
     response.sendFile(__dirname + "/client/dist/index.html");
   });
 
-  app.post('/upload_json', (req, res) => {
-     console.log(req.body)
+//   app.post('/upload_json', (req, res) => {
+//      console.log(req.body)
      
 
-    res.end(result)
-});
+//     res.end(result)
+// });
 
 
 
